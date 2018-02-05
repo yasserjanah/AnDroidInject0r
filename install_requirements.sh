@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "[+] Installing 'python2 pwntools library'"
+echo "[+] Installing "
 sleep 1
 sudo pip install pwntools
 echo "[+] Done."
