@@ -3,7 +3,7 @@
 Droid_Inject0r is a Python script to inject existing Android applications with a Meterpreter payload. It can be used during penetrating testing or security assessments.
 
 
-[![asciicast](https://asciinema.org/a/rj1t7W7CNfFUsPtTBWzvz2Oci.png)](https://asciinema.org/a/rj1t7W7CNfFUsPtTBWzvz2Ocir)
+[![asciicast](https://asciinema.org/a/ajlfaPCAmWbWT4Ie0GDmLshjy.png)](https://asciinema.org/a/ajlfaPCAmWbWT4Ie0GDmLshjy)
 
 ```
     [+] AUTOR:        Yasser Janah
