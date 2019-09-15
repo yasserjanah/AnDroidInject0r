@@ -2,6 +2,8 @@
 
 ''' Python Script .. inject malicious apk file into original apk [Created by : @Y4SS3R005]'''
 
+__author__ = "YASSER JANAH"
+
 try:
     import os,sys
     import subprocess
@@ -32,7 +34,7 @@ def banner():
 |  |  \  :|  .--'| .-. |,--.' .-. |    |  ||      \  ,--.| .-. :| .--''-.  .-'|  ()  ||  .--' 
 |  '--'  /|  |   ' '-' '|  |\ `-' |    |  ||  ||  |  |  |\   --.\ `--.  |  |   \    / |  |    
 `-------' `--'    `---' `--' `---'     `--'`--''--'.-'  / `----' `---'  `--'    `--'  `--'    
-                                                   '---'   Created by : @'''+Fore.GREEN+'''Y4SS3R005'''+Fore.WHITE+'''                               
+                                                   '---'   Created by : (Yasser Janah) @'''+Fore.GREEN+'''Y4SS3R005'''+Fore.WHITE+'''                               
 ''')
 def parser_error(errmsg):
         print(Fore.YELLOW+"\nUsage:"+Fore.WHITE+" python " + sys.argv[0] + " -p [PAYLOAD] --lhost=[LHOST] --lport=[PORT] --apkfile=[APKFILE]")
@@ -41,8 +43,8 @@ def parser_error(errmsg):
 def print_help():
         print(Fore.YELLOW+"\nUsage:"+Fore.WHITE+" python " + sys.argv[0] + " -p [PAYLOAD] --lhost=[LHOST] --lport=[PORT] --apkfile=[APKFILE]")
         print(Fore.WHITE+"\n\t<< "+Fore.YELLOW+"Coded by : "+Fore.GREEN+"Yasser Janah"+Fore.WHITE+" >>")
-        print(Fore.WHITE+"\t<< "+Fore.YELLOW+"Facebook : "+Fore.GREEN+"https://facebook.com/yasserjanah19"+Fore.WHITE+" >>")
-        print(Fore.WHITE+"\t<< "+Fore.YELLOW+"Twitter  : "+Fore.GREEN+"https://twitter.com/Y4ss3rJ4n4h"+Fore.WHITE+" >>")
+        print(Fore.WHITE+"\t<< "+Fore.YELLOW+"Facebook : "+Fore.GREEN+"https://facebook.com/yasser.janah"+Fore.WHITE+" >>")
+        print(Fore.WHITE+"\t<< "+Fore.YELLOW+"Twitter  : "+Fore.GREEN+"https://twitter.com/yasser_janah"+Fore.WHITE+" >>")
         print(Fore.WHITE+"\t<< "+Fore.YELLOW+"Github   : "+Fore.GREEN+"https://github.com/Y4SS3R005/"+Fore.WHITE+" >>\n")
         print(Fore.WHITE+'\t-p  , --payload\t\ta metasploit android payload (e.x android/meterpreter/reverse_tcp) (not required)')
         print(Fore.WHITE+'\t-lh , --lhost\t\t  The listen address (not required)')
