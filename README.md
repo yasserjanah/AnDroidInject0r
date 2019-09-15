@@ -8,8 +8,8 @@ Droid_Inject0r is a Python script to inject existing Android applications with a
 ```
     [+] AUTOR:        Yasser Janah
     [+] GITHUB:       https://github.com/Y4SS3R005
-    [+] TWITTER:      https://twitter.com/Y4ss3rJ4n4h
-    [+] FACEBOOK:     https://fb.com/yasserjanah19
+    [+] TWITTER:      https://twitter.com/yasser_janah
+    [+] FACEBOOK:     https://fb.com/yasser.janah
 ```
 # Getting the code
 
@@ -25,8 +25,8 @@ chmod +x install_requirements.sh
 ```
 Usage: python2 Droid_apk_Inject0r.py -p [PAYLOAD] --lhost=[LHOST] --lport=[PORT] --apkfile=[APKFILE]
     << Coded by : Yasser Janah >>
-    << Facebook : https://facebook.com/yasserjanah19 >>
-    << Twitter  : https://twitter.com/Y4ss3rJ4n4h >>
+    << Facebook : https://facebook.com/yasser.janah >>
+    << Twitter  : https://twitter.com/yasser_janah >>
     << Github   : https://github.com/Y4SS3R005/ >>
     -p  , --payload        a metasploit android payload (e.x android/meterpreter/reverse_tcp) (not required)
     -lh , --lhost          The listen address (not required)
