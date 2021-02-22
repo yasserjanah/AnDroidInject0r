@@ -8,8 +8,8 @@ AnDroidInject0r is a Python script to inject existing Android applications with 
 ```
     [+] AUTOR:        Yasser Janah
     [+] GITHUB:       https://github.com/yasserjanah
-    [+] TWITTER:      https://twitter.com/yasser_janah
-    [+] FACEBOOK:     https://fb.com/yasser.janah
+    [+] TWITTER:      https://twitter.com/th3x0ne
+    [+] FACEBOOK:     https://fb.com/yasser.janah0
 ```
 # Getting the code
 
